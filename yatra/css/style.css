@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) {
+	.form-group {
+		float: left !important;
+	}
+
+	.form-control, .btn-default {
+		border: 1px !important;
+		border-radius: 0 !important;
+		height: 42px !important;
+	}
+
+	.btn {
+		border-radius: 0 5px 5px 0 !important;
+	}
+
+	.center-row {
+		margin: auto;
+		width: 90%;
+		padding-bottom: 5px;
+	}
+
+	.a-color {
+		color: white;
+		background: black;
+		opacity: 0.5;
+	}
+	
+	.margin-left {
+		margin-left: 15px;
+	}
+		
+	.margin-right {
+		margin-right: 55px;
+	}
+	
+	.center-row a {
+		border-radius: 5px;
+		padding: 2px;
+		font-size: 12px;
+	}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.typeahead {
+  background-color: #fff;
+}
+
+.typeahead:focus {
+  border: 2px solid #0097cf;
+}
+
+body { 
+  background: url(http://railb2b.com/raileurope/images/stories/TrainPhotos/18.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.partial-transparent {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    border: none;
+}
+
+.partial-transparent input {
+    opacity: 1;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+	background-color: White;
+	 
+}
+
