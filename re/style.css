@@ -132,6 +132,13 @@
   background-color: #fff;
 }
 
+.selectpicker {
+   border-radius: 5px 5px 127px 129px;
+   -moz-border-radius: 5px 5px 127px 129px;
+   -webkit-border-radius: 5px 5px 127px 129px;
+   border: 1px solid #000000;
+}
+
 .typeahead:focus {
   border: 2px solid #0097cf;
 }
